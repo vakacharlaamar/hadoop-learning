@@ -6,14 +6,14 @@
 		<description>Color</description>
 	</property>
 	<property>
-		<name>size</name>
-		<value>10</value>
-		<description>Size</description>
-	</property>
-	<property>
 		<name>weight</name>
 		<value>heavy</value>
 		<description>Weight</description>
+	</property>
+	<property>
+		<name>size</name>
+		<value>10</value>
+		<description>Size</description>
 	</property>
 	<property>
 		<name>size-weight</name>

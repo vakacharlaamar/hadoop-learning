@@ -15,7 +15,7 @@ public class YearTemperatureMapper extends Mapper<LongWritable, Text, IntWritabl
         StringTokenizer tok = new StringTokenizer(value.toString());
         int year = Integer.decode(tok.nextToken(","));
         
-        // eat next field -- stationId
+        // eat next field -- stationId (unused)
         Integer.decode(tok.nextToken(","));
         
         int recordedTemperature = Integer.decode(tok.nextToken(","));
