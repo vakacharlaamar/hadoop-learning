@@ -83,7 +83,7 @@
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>2.4</version>
 				<configuration>
-					<outputDirectory>/target/output</outputDirectory>
+					<outputDirectory>target</outputDirectory>
 				</configuration>
 			</plugin>
 		</plugins>

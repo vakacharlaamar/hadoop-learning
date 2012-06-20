@@ -1,6 +1,5 @@
 package ca.ulaval.graal.hadoop.configtester;
 
-// cc ConfigurationPrinter An example Tool implementation for printing the properties in a Configuration
 import java.util.Map.Entry;
 import org.apache.hadoop.conf.*;
 import org.apache.hadoop.util.*;
@@ -17,7 +16,7 @@ public class ConfigurationPrinter extends Configured implements Tool {
 	}
 
 	@Override
-	public int run(String[] args) throws Exception {
+	public final int run(String[] args) throws Exception {
 		Configuration conf = getConf();
 		for (Entry<String, String> entry : conf) {
 			System.out.printf("%s=%s\n", entry.getKey(), entry.getValue());
