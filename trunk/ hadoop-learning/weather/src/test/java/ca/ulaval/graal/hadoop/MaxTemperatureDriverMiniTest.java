@@ -1,7 +1,6 @@
 package ca.ulaval.graal.hadoop;
 
 import static org.hamcrest.Matchers.is;
-import static org.hamcrest.Matchers.nullValue;
 import static org.junit.Assert.assertThat;
 
 import java.io.BufferedReader;
